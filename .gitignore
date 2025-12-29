@@ -1,0 +1,35 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go build output
+/bin/
+/build/
+/dist/
+
+# Coverage and test artifacts
+*.out
+coverage.txt
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Node / frontend (if ever added)
+node_modules/
+
+# Docker
+*.pid
